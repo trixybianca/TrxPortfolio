@@ -8,3 +8,22 @@ Thumbs.db
 
 # Keep the original source CV local; the website includes its downloadable copy.
 /CV_Trixy Bianca Oleen_Oct 26.docx
+
+# Keep Markdown documents and assistant-specific configuration local.
+*.md
+*.MD
+.agents/
+.codex/
+.claude/
+.cursor/
+.continue/
+.gemini/
+.opencode/
+.windsurf/
+.aider*
+.clinerules
+.clinerules/
+.cursorrules
+.cursorignore
+.windsurfrules
+.mcp.json
