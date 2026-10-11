@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep the original source CV local; the website includes its downloadable copy.
+/CV_Trixy Bianca Oleen_Oct 26.docx

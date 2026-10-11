@@ -1,0 +1,13 @@
+{
+  "name": "trixy-oleen-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trixy Bianca Oleen's single-page finance portfolio",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check dist/script.js"
+  },
+  "engines": { "node": ">=18" }
+}
