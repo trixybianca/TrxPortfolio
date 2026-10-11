@@ -6,8 +6,9 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Keep the original source CV local; the website includes its downloadable copy.
+# Keep CV documents local while downloads are disabled.
 /CV_Trixy Bianca Oleen_Oct 26.docx
+/dist/assets/Trixy-Bianca-Oleen-CV.docx
 
 # Keep Markdown documents and assistant-specific configuration local.
 *.md
