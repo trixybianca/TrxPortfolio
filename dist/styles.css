@@ -1060,11 +1060,17 @@ h1 em {
 
 .contact-links>a {
   display:flex;
+  gap:16px;
   justify-content:space-between;
   align-items:center;
   padding:17px 0;
   border-bottom:1px solid #c9bfb2;
   font-size:12px;
+}
+
+.contact-links>a>span:first-child {
+  overflow-wrap:anywhere;
+  min-width:0;
 }
 
 .contact-links>a:hover {
@@ -1076,31 +1082,9 @@ h1 em {
   color:var(--wine);
 }
 
-.contact-links a.contact-email {
-  display:block;
-  padding-top:0;
-  padding-bottom:25px;
-}
 
-.contact-email .eyebrow {
-  display:block;
-  color:var(--wine);
-  font-size:8px;
-  margin-bottom:12px;
-}
 
-.contact-email>span:last-child {
-  font-family:var(--serif);
-  font-size:clamp(17px,1.65vw,23px);
-  display:flex;
-  justify-content:space-between;
-  gap:12px;
-}
 
-.contact-email>span:last-child>span {
-  font-family:var(--sans);
-  font-size:21px;
-}
 
 .contact-links small {
   font-size:8px;
@@ -1438,9 +1422,6 @@ h1 em {
   }
   .contact-inner h2 {
     font-size:53px;
-  }
-  .contact-email>span:last-child {
-    font-size:17px;
   }
 }
 
@@ -1798,12 +1779,6 @@ h1 em {
   }
   .contact-inner h2 {
     font-size:54px;
-  }
-  .contact-email>span:last-child {
-    font-size:clamp(16px,5vw,23px);
-  }
-  .contact-links a.contact-email {
-    padding-bottom:23px;
   }
   .contact-links>a {
     min-height:54px;
